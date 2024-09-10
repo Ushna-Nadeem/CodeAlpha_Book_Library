@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Book Library</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Personal Book Library</h1>
+
+    <form id="addBookForm">
+      <input type="text" id="title" placeholder="Book Title" required>
+      <input type="text" id="author" placeholder="Author" required>
+      <input type="text" id="genre" placeholder="Genre" required>
+      <input type="number" id="year" placeholder="Year" required>
+      <button type="submit">Add Book</button>
+    </form>
+
+    <input type="text" id="search" placeholder="Search books...">
+
+    <ul id="bookList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
